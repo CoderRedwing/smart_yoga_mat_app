@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "967453985972",
+    "project_id": "smart-yoga-mat-app",
+    "storage_bucket": "smart-yoga-mat-app.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:967453985972:android:157c39cf2aa7621824dbe1",
+        "android_client_info": {
+          "package_name": "com.smart.yoga.mat"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDBQNjOGu4aYAPK9QIz1Hs2Tf1_HVDw9AI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
