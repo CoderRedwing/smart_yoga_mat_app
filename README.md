@@ -1,16 +1,53 @@
-# smart_yoga_mat_app
+# Smart Yoga Mat App
 
-A new Flutter project.
+## App Introduction
 
-## Getting Started
+The **Smart Yoga Mat App** connects your phone to a smart yoga mat via **Bluetooth** or **Wi-Fi**. The app allows users to control mat functions like **Warm-Up** and **Relaxation Mode**, play relaxing sounds (breathing exercises, ocean waves, ambient music), and update the mat’s firmware via **OTA** updates. Built with **Flutter**, it ensures compatibility across both **iOS** and **Android** platforms.
 
-This project is a starting point for a Flutter application.
+## Technology Stack
 
-A few resources to get you started if this is your first Flutter project:
+- **Framework**: [Flutter](https://flutter.dev)
+- **Backend**: [Firebase](https://firebase.google.com)
+- **Database**: [Firebase Firestore](https://firebase.google.com/docs/firestore)
+- **Bluetooth/Wi-Fi Connectivity**: Native mobile APIs
+- **OTA Updates**: Simulated via Firebase
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## Dependencies
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- `flutter`
+- `firebase_core`
+- `firebase_auth`
+- `cloud_firestore`
+- `audioplayers`
+- `flutter_blue`
+- `http`
+
+### Install dependencies
+```bash
+flutter pub get
+```
+
+## How to Get Started
+
+### 1. Clone the Repository
+```bash
+git clone https://github.com/yourusername/smart-yoga-mat-app.git
+```
+
+### 2. Install Flutter
+Follow the [Flutter installation guide](https://flutter.dev/docs/get-started/install).
+
+### 3. Set Up Firebase
+- Create a Firebase project at [Firebase Console](https://console.firebase.google.com/).
+- Integrate Firebase for both Android and iOS as per the [FlutterFire setup guide](https://firebase.flutter.dev/docs/overview#installation).
+
+### 4. Install Dependencies
+```bash
+cd smart-yoga-mat-app
+flutter pub get
+```
+
+### 5. Run the App
+```bash
+flutter run
+```
