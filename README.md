@@ -67,7 +67,7 @@ Below are some UI screenshots of the **Smart Yoga Mat App**:
 1. **Home Screen**  
    The home screen displays an overview of the smart yoga mat, highlighting its features and providing a clear call to action to connect to the mat.
    
-   ![Home Screen](assets/screenshots/home_screen.png)
+   ![Home Screen](assets/screenshots/home_screen.jpg)
 
 2. **Device Connection**  
    The connection screen shows the current connection status, allowing users to connect or disconnect from the mat.
